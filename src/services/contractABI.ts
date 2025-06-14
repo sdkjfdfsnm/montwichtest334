@@ -895,4 +895,4 @@ export const CONTRACT_ABI = [
   }
 ];
 
-export default CONTRACT_ABI
+export default CONTRACT_ABI;
