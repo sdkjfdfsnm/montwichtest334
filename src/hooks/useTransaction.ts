@@ -93,12 +93,12 @@ export const useTransaction = () => {
       // Show immediate feedback (like Monad 2048)
       toast.success(
         <div>
-          <p>Transaction sent!</p>
+          Transaction sent!
           <a 
             href={explorerUrl} 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-blue-400 underline"
+            className="text-blue-400 underline ml-2"
           >
             View on Explorer
           </a>
