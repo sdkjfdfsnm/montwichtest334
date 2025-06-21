@@ -93,7 +93,7 @@ export const useTransaction = () => {
       // Show immediate feedback (like Monad 2048)
       toast.success(
         <div>
-          Transaction sent!
+          <p>Transaction sent!</p>
           <a 
             href={explorerUrl} 
             target="_blank" 
