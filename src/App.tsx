@@ -263,7 +263,7 @@ function InnerApp() {
 function App() {
   return (
     <PrivyProvider
-      appId="cmbi8jxhs000zju0mbg0xx3v3"
+      appId="cm4rnqhqr00ej12oa8aqhqhqr" // Replace with your actual Privy App ID
       config={{
         loginMethods: ['email', 'google', 'twitter'],
         embeddedWallets: {
